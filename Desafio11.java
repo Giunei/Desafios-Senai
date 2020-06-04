@@ -142,11 +142,11 @@ public class Desafio11 {
 		for (int i = 0; i < nomes.size(); i++) {
 			lista.append("Nome: "+nomes.get(i));
 			lista.append("\n");
-			lista.append("<th>Email: "+emails.get(i));
+			lista.append("Email: "+emails.get(i));
 			lista.append("\n");
-			lista.append("<th>Celular: "+celulares.get(i));
+			lista.append("Celular: "+celulares.get(i));
 			lista.append("\n");
-			lista.append("<th>Gênero: "+generos.get(i));
+			lista.append("Gênero: "+generos.get(i));
 			lista.append("\n");
 			lista.append("Idade: "+idades.get(i));
 			lista.append("\n");
