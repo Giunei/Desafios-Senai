@@ -49,7 +49,7 @@ public class Desafio11 {
 		menu.append("\n");
 		menu.append("3 - Listar contatos");
 		menu.append("\n");
-		menu.append("4 - Apenas por genero");
+		menu.append("4 - Apenas por gênero");
 		menu.append("\n");
 		menu.append("5 - Pesquisar");
 		menu.append("\n");
@@ -64,7 +64,7 @@ public class Desafio11 {
 				nome = jopStr("Digite o nome do contato");
 				email = jopStr("Digite o Email de "+nome);
 				celular = jopStr("Digite o celular de "+nome);
-				tipogenero = jopInt("Digite o genero:\n0 - Masculino\n1 - Feminino\n2 - Não-Binário");
+				tipogenero = jopInt("Digite o gênero:\n0 - Masculino\n1 - Feminino\n2 - Não-Binário");
 				if(tipogenero==0) {
 					genero = 'M';
 				}else if(tipogenero==1) {
@@ -80,7 +80,7 @@ public class Desafio11 {
 			case 2:
 				indice = jopInt(
 						listarContatosIndice()
-						+ "Escolha o indice do contato a ser removido"
+						+ "Escolha o índice do contato a ser removido"
 						);
 				remContato(indice);
 				break;
